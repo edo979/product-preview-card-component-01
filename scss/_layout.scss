@@ -1,0 +1,16 @@
+body {
+  display: grid;
+  place-content: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: var(--direction, column);
+  justify-content: var(--justify, start);
+  align-items: center;
+  gap: var(--gap, 1rem);
+}
+
+.main-container {
+  width: min(60ch, 92vw);
+}
