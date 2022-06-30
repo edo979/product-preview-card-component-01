@@ -25,9 +25,13 @@
   </head>
   <body>
     <div class="main-container flex">
-      <div class="image-container">
+      <picture>
+        <source
+          srcset="images/image-product-desktop.jpg"
+          media="(min-width: 568px)"
+        />
         <img src="images/image-product-mobile.jpg" alt="" />
-      </div>
+      </picture>
 
       <div class="content-container">
         <p class="uppercase">Parfum</p>

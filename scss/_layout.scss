@@ -8,7 +8,6 @@ body {
   flex-direction: var(--direction, column);
   justify-content: var(--justify, start);
   align-items: center;
-  gap: var(--gap, 1rem);
 }
 
 .main-container {

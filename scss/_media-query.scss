@@ -1,5 +1,17 @@
 @media (min-width: 568px) {
+  // Layout:
+
   .main-container {
     --direction: row;
+    width: min(600px, 92vw);
+
+    > * {
+      padding: 0;
+      flex-basis: 300px;
+    }
+  }
+
+  .content-container {
+    padding-inline: 2rem;
   }
 }
