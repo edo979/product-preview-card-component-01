@@ -10,14 +10,44 @@ body {
 }
 
 .content-container {
-  padding: 1.75rem;
+  padding: 1.25rem 1.75rem;
+
+  > p {
+    line-height: 1.9;
+  }
 
   > .flex {
     --direction: row;
-    margin-top: 2.5rem;
+    --gap: 2rem;
+    margin-top: 2.8rem;
+  }
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  font-size: inherit;
+  font-weight: 700;
+  cursor: pointer;
+
+  img {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 0.5rem;
   }
 
-  > .uppercase {
-    line-height: 1;
+  &-large {
+    width: 100%;
+  }
+
+  &-primary {
+    padding: 1rem 2rem;
+    color: $White;
+    background-color: $Dark-cyan;
+
+    &:focus,
+    &:hover {
+      background-color: darken($color: $Dark-cyan, $amount: 15%);
+    }
   }
 }
