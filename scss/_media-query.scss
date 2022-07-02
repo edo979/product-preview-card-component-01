@@ -1,4 +1,14 @@
 @media (min-width: 568px) {
+  // Typography:
+  :root {
+    --fs-900: 2.25rem;
+    --fs-400: 1rem;
+  }
+
+  h1 {
+    //margin-bottom: 1.5rem;
+  }
+
   // Layout:
 
   .main-container {
@@ -12,6 +22,20 @@
   }
 
   .content-container {
-    padding-inline: 2rem;
+    padding: 2rem;
+  }
+
+  // Components:
+
+  .content-container {
+    --flow-gap: 1.5rem;
+
+    p {
+      line-height: 1.6;
+    }
+
+    .flex {
+      margin-top: 2rem;
+    }
   }
 }

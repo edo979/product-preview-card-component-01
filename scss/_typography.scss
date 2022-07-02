@@ -3,6 +3,7 @@
 :root {
   --fs-900: 2.2rem;
   --fs-400: 0.925rem;
+  --fs-300: 0.925rem;
 }
 
 html {
@@ -41,4 +42,8 @@ p {
 
 .line-through {
   text-decoration: line-through;
+}
+
+.fs-300 {
+  font-size: var(--fs-300);
 }

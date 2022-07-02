@@ -17,6 +17,6 @@ body {
 
 .flow {
   > * + * {
-    margin-top: 0.9rem;
+    margin-top: var(--flow-gap, 0.9rem);
   }
 }
