@@ -13,3 +13,9 @@ body {
 .main-container {
   width: min(60ch, 92vw);
 }
+
+.flow {
+  > * + * {
+    margin-top: 1rem;
+  }
+}

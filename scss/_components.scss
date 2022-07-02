@@ -1,7 +1,23 @@
-.content-container {
-  padding: 1rem;
+body {
+  background-color: $Cream;
+}
 
-  .flex {
+.main-container {
+  border-radius: 10px;
+  overflow: hidden;
+
+  background-color: $White;
+}
+
+.content-container {
+  padding: 1.75rem;
+
+  > .flex {
     --direction: row;
+    margin-top: 2.5rem;
+  }
+
+  > .uppercase {
+    line-height: 1;
   }
 }
